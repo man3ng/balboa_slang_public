@@ -1,0 +1,31 @@
+
+{
+  "resolution": [900, 600],
+  "background": [0.87, 0.93, 0.98],
+  "samples_per_axis": 4,
+  "duration": 1.0,
+  "objects": [
+    {"type":"circle","center":[385,335],"radius":39,"fill_rgba":[1.0,0.97,0.88,1],"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":5},
+    {"type":"circle","center":[515,335],"radius":39,"fill_rgba":[1.0,0.97,0.88,1],"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":5},
+    {"type":"circle","center":[395,336],"radius":17,"fill_rgba":[0.10,0.13,0.19,1]},
+    {"type":"circle","center":[525,336],"radius":17,"fill_rgba":[0.10,0.13,0.19,1]},
+    {"type":"circle","center":[390,344],"radius":6,"fill_rgba":[1,1,1,1]},
+    {"type":"circle","center":[520,344],"radius":6,"fill_rgba":[1,1,1,1]},
+    {"type":"circle","center":[370,380],"radius":19,"fill_rgba":[1.0,0.42,0.49,0.5]},
+    {"type":"circle","center":[530,380],"radius":19,"fill_rgba":[1.0,0.42,0.49,0.5]},
+    {"type":"polyline","points":[430,275,470,275,450,248],"closed":true,"fill_rgba":[0.90,0.31,0.48,1],"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":4},
+    {"type":"quadratic_bezier","points":[450,245,450,220,425,220],"closed":false,"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":5},
+    {"type":"quadratic_bezier","points":[450,245,450,220,475,220],"closed":false,"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":5},
+    {"type":"polyline","points":[325,280,360,290,390,292],"closed":false,"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":5},
+    {"type":"polyline","points":[320,245,360,255,390,260],"closed":false,"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":5},
+    {"type":"polyline","points":[330,210,365,222,395,230],"closed":false,"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":5},
+    {"type":"polyline","points":[575,280,540,290,510,292],"closed":false,"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":5},
+    {"type":"polyline","points":[580,245,540,255,510,260],"closed":false,"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":5},
+    {"type":"polyline","points":[570,210,535,222,505,230],"closed":false,"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":5},
+    {"type":"circle","center":[450,300],"radius":190,"fill_rgba":[1.0,0.66,0.29,1],"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":9},
+    {"type":"polyline","points":[330,420,345,500,405,450],"closed":true,"fill_rgba":[0.98,0.63,0.66,1],"stroke_rgba":[0.78,0.30,0.37,1],"stroke_width":4},
+    {"type":"polyline","points":[570,420,555,500,495,450],"closed":true,"fill_rgba":[0.98,0.63,0.66,1],"stroke_rgba":[0.78,0.30,0.37,1],"stroke_width":4},
+    {"type":"polyline","points":[310,390,330,540,430,450],"closed":true,"fill_rgba":[0.95,0.52,0.20,1],"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":9},
+    {"type":"polyline","points":[590,390,570,540,470,450],"closed":true,"fill_rgba":[0.95,0.52,0.20,1],"stroke_rgba":[0.20,0.13,0.17,1],"stroke_width":9}
+  ]
+}

@@ -1,4 +1,5 @@
 import hw1_common;
+import hw1_render;
 
 [shader("compute")]
 [numthreads(8, 8, 1)]
@@ -14,10 +15,7 @@ void compute_main(uint2 tid : SV_DispatchThreadID,
                   RWTexture2D<float4> image) {
     uint width, height;
     image.GetDimensions(width, height);
-    if (tid.x >= width || tid.y >= height) {
-        return;
-    }
-
-    image[tid] = float4(1.0);
-    // TODO: your code here
+    render_pixel(tid, width, height, background, samples_per_axis,
+        shapes, num_shapes, circles, polylines, quadratic_beziers, points, image,
+        true, true, true);
 }
